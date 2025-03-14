@@ -8,6 +8,8 @@
   --text-color: #737A91;
   --light-text-color: #585D6E;
   --link-color: #0154AA;
+  --success-color: #3b9c34;
+  --success-bg: #70da6881;
 }
 
 @media (prefers-color-scheme: dark) {

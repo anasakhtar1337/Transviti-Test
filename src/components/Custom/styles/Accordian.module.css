@@ -1,0 +1,29 @@
+.Accordian {
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+
+.Accordian .icon {
+    cursor: pointer;
+    transition: 0.3s max-height, 0.8s margin;
+}
+
+.Accordian .icon.active {
+    transform: rotate(180deg);
+}
+
+.Accordian .content {
+    overflow: hidden;
+    height: 100%;
+    max-height: 0px;
+    transition: 0.6s;
+}
+
+.Accordian .content.active {
+    overflow: auto;
+    max-height: 400px;
+}

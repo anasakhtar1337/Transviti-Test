@@ -1,9 +1,10 @@
-import Tag from "@/components/Custom/Tag";
-import { Description, Header, SubDescription, Title, TitleDescription } from "@/components/Typography";
-import styles from "./index.module.css";
-import JobSection from "@/components/Sections/JobSection";
-import Image from "next/image";
 import Profile from "@/components/Card/Profile";
+import UpcomingInterview from "@/components/Card/UpcomingInterview";
+import Tag from "@/components/Custom/Tag";
+import JobSection from "@/components/Sections/JobSection";
+import { Description, Header, TitleDescription } from "@/components/Typography";
+import Image from "next/image";
+import styles from "./index.module.css";
 
 export default function Home() {
   const similar_tags = ['Backend', 'Frontend', 'Graphic Designer']
@@ -51,10 +52,7 @@ export default function Home() {
             </div>
 
             {/** User Calender Event Container */}
-            <div className={styles.calenderContainer}>
-              
-
-            </div>
+            <UpcomingInterview />
 
           </div>
           <div className={'col-lg-8 py-2'}>
