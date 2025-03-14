@@ -1,0 +1,52 @@
+.Navbar {
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--navbar-background);
+
+}
+
+.Navbar .content {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 55px;
+
+}
+
+.Navbar .navlinks {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+.Navbar .crumpsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.Navbar .crumpsContainer .searchBar {
+    max-width: 250px;
+}
+
+.Navbar .crumpsContainer .profileIcon {
+    width: 48px;
+    border-radius: 100%;
+    border: none;
+
+}
+
+.Navbar .crumpsContainer .profileImage {
+    border-radius: 50%;
+    object-fit: cover;
+}

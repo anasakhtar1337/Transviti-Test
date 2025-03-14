@@ -1,0 +1,18 @@
+.TagListing {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.Tag {
+    padding: 7px 18px;
+    border-radius: 5px;
+    min-width: 80px;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}

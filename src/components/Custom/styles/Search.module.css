@@ -1,0 +1,27 @@
+.Search {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #F6F9FF;
+    color: var(--text-color);
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.Search .Input {
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.Search .Input::placeholder {
+    color: var(--text-color);
+}
+
+.Search .Input:focus-within {
+    outline: none;
+}

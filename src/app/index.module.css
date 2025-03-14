@@ -1,0 +1,13 @@
+.Home{
+    width: 100%;
+}
+
+.Home .content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Home .jobsContainer{
+    width: 100%;
+}

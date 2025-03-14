@@ -1,0 +1,111 @@
+.Header {
+    font-size: 1.9rem;
+    margin: 0;
+    color: var(--title-color);
+    letter-spacing: 0px;
+    line-height: 100%;
+}
+
+
+.Title {
+    font-size: 1.7rem;
+    margin: 0;
+    color: var(--title-color);
+    letter-spacing: 0px;
+    line-height: 100%;
+}
+
+
+
+.SubHeader {
+    font-size: 1.55rem;
+    margin: 0;
+    color: var(--title-color);
+    letter-spacing: 0px;
+    line-height: 100%;
+}
+
+.SubTitle,
+.SubTitleLight {
+    font-size: 1.35rem;
+    margin: 0;
+    color: var(--title-color);
+    letter-spacing: 0px;
+    line-height: 100%;
+}
+
+
+.TitleDescription {
+    font-size: 1.2rem;
+    margin: 0;
+    color: var(--title-color);
+    letter-spacing: 0px;
+    line-height: 100%;
+}
+
+
+.Description {
+    margin: 0;
+    color: var(--title-color);
+    font-size: 1.15rem;
+    letter-spacing: 0px;
+    line-height: 100%;
+}
+
+.SubDescription {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 100%;
+}
+
+.Label {
+    margin: 0;
+    color: var(--title-color);
+    font-size: 0.8rem;
+    line-height: 100%;
+}
+
+.Button {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+}
+
+.Button:focus,
+.Button:focus-within {
+    outline: none;
+}
+
+
+.Anchor {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    line-height: 100%;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 4px;
+}
+
+
+.NavLink {
+    font-size: 1.1rem;
+    margin: 0;
+    color: var(--text-color);
+    letter-spacing: 0px;
+    line-height: 100%;
+
+}
+
+.NavLink.active {
+    color: var(--primary-color);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
