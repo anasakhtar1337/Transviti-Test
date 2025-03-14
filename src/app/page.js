@@ -5,6 +5,7 @@ import JobSection from "@/components/Sections/JobSection";
 import { Description, Header, TitleDescription } from "@/components/Typography";
 import Image from "next/image";
 import styles from "./index.module.css";
+import GlobalSearch from "@/components/Custom/GlobalSearch";
 
 export default function Home() {
   const similar_tags = ['Backend', 'Frontend', 'Graphic Designer']
@@ -64,6 +65,8 @@ export default function Home() {
                 text="Explore the latest job openings and apply for the best opportunities available today!"
                 classes="mt-2"
               />
+
+              <GlobalSearch />
               <div className="d-flex flex-row align-items-center gap-3 my-4">
                 <Description
                   text="Similar:"

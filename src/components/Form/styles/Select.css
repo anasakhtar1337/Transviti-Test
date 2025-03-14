@@ -1,0 +1,29 @@
+.Select {
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    text-wrap: nowrap;
+    width: fit-content;
+    min-width: 150px;
+}
+
+.css-13cymwt-control,
+.css-t3ipsp-control {
+    border: none !important;
+    outline: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.css-13cymwt-control:focus,
+.css-13cymwt-control:focus-within {
+    border: none !important;
+    outline: none !important;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.css-1u9des2-indicatorSeparator{
+    display: none !important;
+}
