@@ -5,6 +5,17 @@
 
 }
 
+.Navbar .overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100dvh;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+
 .Navbar .content {
     max-width: 1600px;
     margin: auto;
@@ -16,6 +27,18 @@
 
 }
 
+.Navbar .content .logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Navbar .content .logoContainer .drawer {
+    display: none;
+    margin-right: 15px;
+    align-items: center;
+}
+
 .Navbar .navlinks {
     margin: 0;
     padding: 0;
@@ -25,6 +48,18 @@
     gap: 25px;
 }
 
+
+@media (max-width:991px) {
+    .Navbar .navlinks {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width:991px) {
+    .Navbar .navlinks {
+        display: none;
+    }
+}
 
 
 .Navbar .crumpsContainer {
@@ -49,4 +84,45 @@
 .Navbar .crumpsContainer .profileImage {
     border-radius: 50%;
     object-fit: cover;
+}
+
+
+@media (max-width:1400px) {
+    .Navbar {
+        padding: 20px 40px;
+    }
+
+    .Navbar .content {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1400px) and (min-width:992px) {
+
+    .Navbar .crumpsContainer .searchBar,
+    .Navbar .crumpsContainer .resumeButton {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .Navbar {
+        padding: 10px 20px;
+    }
+
+    .Navbar .content .logoContainer .drawer {
+        display: flex;
+    }
+
+    .Navbar .navlinks {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .Navbar .crumpsContainer .searchBar {
+        display: none;
+    }
 }
