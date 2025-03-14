@@ -39,7 +39,7 @@ export default function Job() {
             <div>
                 <SubDescription
                     text={
-                        <div className='d-flex align-items-center lc-1'>
+                        <span className='d-flex align-items-center lc-1'>
                             <span className='d-flex me-2'>
                                 <Image
                                     src={'/icons/location.svg'}
@@ -49,13 +49,13 @@ export default function Job() {
                                 />
                             </span>
                             Seattle, USA (Remote)
-                        </div>
+                        </span>
                     }
 
                 />
                 <SubDescription
                     text={
-                        <div className='d-flex align-items-center mt-2'>
+                        <span className='d-flex align-items-center mt-2'>
                             <span className='d-flex me-2'>
                                 <Image
                                     src={'/icons/clock.svg'}
@@ -65,7 +65,7 @@ export default function Job() {
                                 />
                             </span>
                             1 day ago | <span className='ms-1 color-primary'>22 applicants</span>
-                        </div>
+                        </span>
                     }
 
                 />

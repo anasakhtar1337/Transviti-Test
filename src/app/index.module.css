@@ -1,13 +1,54 @@
-.Home{
+.Home {
     width: 100%;
 }
 
-.Home .content{
+
+.Home .profileInfoContainer,
+.Home .infoContainer {
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.Home .profileInfoContainer .coverImage {
     width: 100%;
+    max-height: 110px;
+    aspect-ratio: 16/6;
+    position: absolute;
+}
+
+.Home .profileInfoContainer .coverImage .image {
+    object-fit: cover;
+}
+
+.Home .profileInfoContainer .content {
+    width: 100%;
+    padding: 25px 35px;
+    margin-top: 45px;
+
+}
+
+
+.Home .infoContainer {
+    padding: 10px 25px;
+}
+
+.Home .infoContainer .info {
+    padding: 15px 0;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
 }
 
-.Home .jobsContainer{
+.Home .infoContainer .info:not(:first-child) {
+    border-top: 1px solid #E9ECEF;
+}
+
+
+.Home .jobsContainer {
     width: 100%;
 }
