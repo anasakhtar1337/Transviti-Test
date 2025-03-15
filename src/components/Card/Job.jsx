@@ -6,14 +6,15 @@ import { Button, Description, Label, SubDescription, TitleDescription } from '..
 
 import Image from 'next/image'
 
-export default function Job() {
+export default function Job({ is_promoted = false }) {
     return (
         <div className={`${styles.JobCard} d-flex flex-column`}>
             <div className='d-flex flex-column gap-2'>
-                <Label
+                {!is_promoted ? "" : <Label
                     text='Promoted'
                     classes='mb-1'
                 />
+                }
                 <div className='d-flex flex-row gap-2'>
                     <div>
                         <Image

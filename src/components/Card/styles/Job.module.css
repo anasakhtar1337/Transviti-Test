@@ -16,3 +16,10 @@
 .JobCard .saveButton:focus {
     outline: none;
 }
+
+@media (max-width:768px) {
+    .JobCard {
+        max-width: none;
+    }
+
+}

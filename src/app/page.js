@@ -84,6 +84,15 @@ export default function Home() {
                 />
                 <JobSection
                   title='Recommended Jobs'
+                  is_promoted={false}
+                  item_length={8}
+                  classes="my-5"
+                />
+                <JobSection
+                  title='Latests Jobs'
+                  is_promoted={false}
+                  item_length={8}
+                  classes="my-5"
                 />
               </div>
 
