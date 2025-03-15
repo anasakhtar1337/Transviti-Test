@@ -17,46 +17,47 @@ export default function Home() {
 
   return (
     <main className={styles.Home}>
-      <div className="container p-4">
-        <div className={'row'}>
-          <div className={'col-lg-4 d-flex flex-column gap-3'}
-          >
-            {/** User Profile Container */}
-            <div className={styles.profileInfoContainer}>
-              <div className={styles.coverImage}>
-                <Image
-                  src="/temp/profile-cover.jpeg"
-                  alt="Profile Cover Image"
-                  fill
-                  className={styles.image}
-                />
+      <div className="container p-4 h-100">
+        <div className={'row h-100'}>
+          <div className={'col-lg-4 h-100 overflow-auto'}>
+            <div className={'d-flex flex-column gap-3'}>
+
+              {/** User Profile Container */}
+              <div className={styles.profileInfoContainer}>
+                <div className={styles.coverImage}>
+                  <Image
+                    src="/temp/profile-cover.jpeg"
+                    alt="Profile Cover Image"
+                    fill
+                    className={styles.image}
+                  />
+                </div>
+
+                <div className={styles.content}>
+                  <Profile />
+                </div>
               </div>
 
-              <div className={styles.content}>
-                <Profile />
+              {/** User Stats Container */}
+              <div className={styles.infoContainer}>
+                {info.map((item) => {
+                  return <li className={styles.info} key={item.key}>
+                    <Description
+                      text={item.title}
+                    />
+                    <TitleDescription
+                      text={item.count}
+                      classes="color-primary"
+                    />
+                  </li>
+                })}
               </div>
+
+              {/** User Calender Event Container */}
+              <UpcomingInterview />
             </div>
-
-            {/** User Stats Container */}
-            <div className={styles.infoContainer}>
-              {info.map((item) => {
-                return <li className={styles.info} key={item.key}>
-                  <Description
-                    text={item.title}
-                  />
-                  <TitleDescription
-                    text={item.count}
-                    classes="color-primary"
-                  />
-                </li>
-              })}
-            </div>
-
-            {/** User Calender Event Container */}
-            <UpcomingInterview />
-
           </div>
-          <div className={'col-lg-8 py-2'}>
+          <div className={'col-lg-8 py-2 h-100'}>
             <div className={styles.jobsContainer}>
               <Header
                 text={<>Find your Dream Job, <span className="color-primary">Albert!</span></>}
@@ -76,13 +77,15 @@ export default function Home() {
                   value={similar_tags}
                 />
               </div>
-              <JobSection
-                title='Featured Jobs'
-                classes="my-5"
-              />
-              <JobSection
-                title='Recommended Jobs'
-              />
+              <div className={styles.sectionContainer}>
+                <JobSection
+                  title='Featured Jobs'
+                  classes="mt-3 mb-5"
+                />
+                <JobSection
+                  title='Recommended Jobs'
+                />
+              </div>
 
             </div>
           </div>

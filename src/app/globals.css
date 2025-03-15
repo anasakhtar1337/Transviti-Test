@@ -12,6 +12,13 @@
   --success-bg: #70da6881;
 
   --sidebar-width: 340px;
+  --navbar-height: 82px;
+}
+
+@media (max-width:991px) {
+  :root {
+    --navbar-height: 62px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

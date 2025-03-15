@@ -51,4 +51,20 @@
 
 .Home .jobsContainer {
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Home .jobsContainer .sectionContainer {
+    height: -webkit-fill-available;
+    overflow: auto;
+}
+
+@media (min-width:991px) {
+    .Home {
+        height: calc(100dvh - var(--navbar-height));
+        overflow: hidden;
+    }
+
 }
