@@ -6,13 +6,13 @@ import Image from 'next/image'
 import { SubDescription, Title, TitleDescription } from '../Typography'
 
 export default function Profile() {
-    const expertise = ['Senior Product Designer', 'UI/UX Designer', 'Graphic Designer', 'Web Developer', 'Full Stack Developer','Senior Product Designer']
+    const expertise = ['Senior Product Designer', 'UI/UX Designer', 'Graphic Designer', 'Web Developer', 'Full Stack Developer', 'Senior Product Designer']
 
     return (
         <div className={styles.Profile}>
             <div className={styles.profileImage}>
                 <Image
-                    src="/temp/profile2.png"
+                    src="/temp-media/profile2.png"
                     alt="User Image"
                     width={90}
                     height={90}

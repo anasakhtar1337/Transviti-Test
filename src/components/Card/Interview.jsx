@@ -9,7 +9,7 @@ export default function Interview({ classes }) {
         <div className={`${styles.Interview} ${classes}`}>
             <div className={styles.logo}>
                 <Image
-                    src="/temp/figma.png"
+                    src="/temp-media/figma.png"
                     alt="Figma Logo"
                     className={styles.image}
                     width={35}

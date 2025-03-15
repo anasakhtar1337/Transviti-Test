@@ -18,7 +18,7 @@ export default function Job({ is_promoted = false }) {
                 <div className='d-flex flex-row gap-2'>
                     <div>
                         <Image
-                            src='/temp/company.png'
+                            src='/temp-media/company.png'
                             alt="Company Logo"
                             width={45}
                             height={43}

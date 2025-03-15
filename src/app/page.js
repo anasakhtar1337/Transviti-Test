@@ -1,11 +1,10 @@
 import Profile from "@/components/Card/Profile";
 import UpcomingInterview from "@/components/Card/UpcomingInterview";
+import GlobalSearch from "@/components/Custom/GlobalSearch";
 import Tag from "@/components/Custom/Tag";
 import JobSection from "@/components/Sections/JobSection";
 import { Description, Header, TitleDescription } from "@/components/Typography";
-import Image from "next/image";
 import styles from "./index.module.css";
-import GlobalSearch from "@/components/Custom/GlobalSearch";
 
 export default function Home() {
   const similar_tags = ['Backend', 'Frontend', 'Graphic Designer']
@@ -17,7 +16,7 @@ export default function Home() {
 
   return (
     <main className={styles.Home}>
-      <div className="container p-4 h-100">
+      <div className="container py-3 h-100">
         <div className={'row h-100'}>
           <div className={'col-lg-4 h-100 overflow-auto'}>
             <div className={'d-flex flex-column gap-3'}>
@@ -25,10 +24,9 @@ export default function Home() {
               {/** User Profile Container */}
               <div className={styles.profileInfoContainer}>
                 <div className={styles.coverImage}>
-                  <Image
-                    src="/temp/profile-cover.jpeg"
+                  <img
+                    src="/temp-media/profile-cover.jpeg"
                     alt="Profile Cover Image"
-                    fill
                     className={styles.image}
                   />
                 </div>

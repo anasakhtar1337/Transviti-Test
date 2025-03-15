@@ -62,7 +62,7 @@ export default function Navbar() {
                     />
                     <button className={styles.profileIcon}>
                         <Image
-                            src={"/temp/profile.jpeg"}
+                            src={"/temp-media/profile.jpeg"}
                             alt='Navbar Profile Icon'
                             className={styles.profileImage}
                             width={42}
