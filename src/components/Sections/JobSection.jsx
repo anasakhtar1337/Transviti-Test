@@ -11,6 +11,7 @@ export default function JobSection({ item_length = 3, title = '', classes = '', 
             <div className='d-flex flex-row align-items-center gap-4'>
                 <SubTitleLight
                     text={title}
+                    classes='title-color'
                 />
                 <Anchor
                     text={'See ' + title}

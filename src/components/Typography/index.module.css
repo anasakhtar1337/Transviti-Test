@@ -1,5 +1,5 @@
 .Header {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     margin: 0;
     color: var(--title-color);
     letter-spacing: 0px;
@@ -8,7 +8,7 @@
 
 
 .Title {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin: 0;
     color: var(--title-color);
     letter-spacing: 0px;
@@ -18,7 +18,7 @@
 
 
 .SubHeader {
-    font-size: 1.55rem;
+    font-size: 1.25rem;
     margin: 0;
     color: var(--title-color);
     letter-spacing: 0px;
@@ -27,7 +27,7 @@
 
 .SubTitle,
 .SubTitleLight {
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     margin: 0;
     color: var(--title-color);
     letter-spacing: 0px;
@@ -36,26 +36,26 @@
 
 
 .TitleDescription {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
     margin: 0;
     color: var(--title-color);
     letter-spacing: 0px;
-    line-height: 100%;
+    line-height:100%;
 }
 
 
 .Description {
     margin: 0;
     color: var(--title-color);
-    font-size: 1.15rem;
+    font-size: 0.9rem;
     letter-spacing: 0px;
     line-height: 100%;
 }
 
 .SubDescription {
     margin: 0;
-    color: var(--text-color);
-    font-size: 1rem;
+    color: var(--light-text-color);
+    font-size: 0.8rem;
     letter-spacing: 0px;
     line-height: 100%;
 }
@@ -74,7 +74,7 @@
     border: none;
     border-radius: 8px;
     color: white;
-    font-size: 1rem;
+    font-size: 0.95rem;
     letter-spacing: 0.4px;
 }
 
@@ -87,16 +87,16 @@
 .Anchor {
     margin: 0;
     color: var(--primary-color);
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
     line-height: 100%;
     border-bottom: 1px solid var(--primary-color);
-    padding-bottom: 4px;
+    padding-bottom: 2px;
 }
 
 
 .NavLink {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     margin: 0;
     color: var(--text-color);
     letter-spacing: 0px;

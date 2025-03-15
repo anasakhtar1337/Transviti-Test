@@ -12,7 +12,7 @@
     min-width: 80px;
     border: 1px solid var(--text-color);
     color: var(--text-color);
-    font-size: 14px;
+    font-size: 0.8rem;
     letter-spacing: 0.1px;
     text-align: center;
     display: inline-flex;

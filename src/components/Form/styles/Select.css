@@ -6,6 +6,7 @@
     text-wrap: nowrap;
     width: fit-content;
     min-width: 150px;
+    font-size: 0.9rem;
 }
 
 .css-13cymwt-control,
@@ -24,6 +25,6 @@
     box-shadow: none;
 }
 
-.css-1u9des2-indicatorSeparator{
+.css-1u9des2-indicatorSeparator {
     display: none !important;
 }

@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { SubDescription, Title, TitleDescription } from '../Typography'
 
 export default function Profile() {
-    const expertise = ['Senior Product Designer', 'UI/UX Designer', 'Graphic Designer', 'Web Developer', 'Full Stack Developer']
+    const expertise = ['Senior Product Designer', 'UI/UX Designer', 'Graphic Designer', 'Web Developer', 'Full Stack Developer','Senior Product Designer']
 
     return (
         <div className={styles.Profile}>
@@ -24,7 +24,7 @@ export default function Profile() {
             />
             <TitleDescription
                 text={expertise.join(' | ')}
-                classes="lc-2"
+                classes="lc-2 title-color lh-sm w-75"
             />
             <SubDescription
                 text="Clinton, Maryland"

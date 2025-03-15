@@ -21,7 +21,7 @@
     padding: 6px 10px;
     border: none;
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 0.7rem;
     color: var(--light-text-color);
     background-color: #dfe9fc;
 }

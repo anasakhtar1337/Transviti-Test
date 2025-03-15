@@ -61,10 +61,18 @@
     overflow: auto;
 }
 
-@media (min-width:991px) {
+
+
+@media (min-width:992px) {
     .Home {
         height: calc(100dvh - var(--navbar-height));
         overflow: hidden;
     }
+}
 
+
+@media (max-width:991px) {
+    .Home .jobsContainer {
+        margin-top: 3rem;
+    }
 }

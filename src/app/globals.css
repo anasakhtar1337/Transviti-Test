@@ -46,7 +46,10 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
 }
+
 
 a {
   color: inherit;

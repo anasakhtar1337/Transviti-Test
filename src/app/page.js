@@ -11,7 +11,7 @@ export default function Home() {
   const similar_tags = ['Backend', 'Frontend', 'Graphic Designer']
   const info = [
     { key: "profile_viewer", title: "Profile Visitors", count: 140 },
-    { key: "resume_viewer", title: "Resume viewer", count: 20 },
+    { key: "resume_viewer", title: "Resume Viewers", count: 20 },
     { key: "my_jobs", title: "My Jobs", count: 88 }
   ]
 
@@ -67,8 +67,10 @@ export default function Home() {
                 classes="mt-2"
               />
 
-              <GlobalSearch />
-              <div className="d-flex flex-row align-items-center gap-3 my-4">
+              <GlobalSearch
+                classes={'my-3'}
+              />
+              <div className="d-flex flex-row align-items-center gap-3 mt-1 mb-2">
                 <Description
                   text="Similar:"
                   classes="text-color"
