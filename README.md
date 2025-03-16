@@ -11,15 +11,15 @@ A modern, responsive web application built with Next.js.
 
 
 ## 📁 Project Structure
-
-├── public/ # Static assets
-├── src/ 
-│ ├── components/ # Reusable UI components
-│ ├── app/ # Route-based pages
-│      └── font/ # All fonts for the webpage
-│      └── global.css # Global Css File
-│      └── favicon.ico # Icon for the webpage
-└── next.config.js # Next.js configuration 
+  ```bash
+    ├── public/ # Static assets
+    ├── src/ 
+    │ ├── components/ # Reusable UI components
+    │ ├── app/ # Route-based pages
+    │      └── font/ # All fonts for the webpage
+    │      └── global.css # Global Css File
+    │      └── favicon.ico # Icon for the webpage
+    └── next.config.js # Next.js configuration 
 
 
 ## 🔧 Installation
