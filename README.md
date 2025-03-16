@@ -1,4 +1,4 @@
-# 📦 TalentVare
+# TalentVare
 
 A modern, responsive web application built with Next.js.
 
